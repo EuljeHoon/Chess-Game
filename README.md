@@ -15,9 +15,13 @@ A Java-based chess game featuring a complete chess engine, chess rule implementa
   - [File I/O](#file-io)
 - [Usage](#usage)
 
+---
+
 ## Overview
 
 This is a complete chess game implementation written in Java. It includes all standard chess rules, including piece movement validation, pawn promotion, and game over detection. The game is played in the terminal using a coordinate-based system.
+
+---
 
 ## Tech Stack
 
@@ -37,6 +41,8 @@ This is a complete chess game implementation written in Java. It includes all st
 - **FEN (Forsyth-Edwards Notation)** — Load standard/custom board states
 - **File I/O (planned)** — Potential for saving/loading games
 
+---
+
 ## Directory Structure
 
 ```
@@ -53,6 +59,8 @@ src/
     King.java
     Fen.java            # FEN string parser for board initialization
 ```
+
+---
 
 ## Modules and Functions
 
@@ -107,6 +115,8 @@ src/
 
 - Supports loading standard board using FEN  
 - Extendable to save/load game progress
+
+---
 
 ## Usage
 
