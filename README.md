@@ -1,6 +1,7 @@
 # Chess Game
 ![Chess Image](images/Chess_Image.png)
-A Java-based chess game featuring a complete chess engine, full rule implementation, and a console-based interface.
+
+A Java-based chess game featuring a complete chess engine, chess rule implementation, and a console(terminal)-based interface.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -13,13 +14,10 @@ A Java-based chess game featuring a complete chess engine, full rule implementat
   - [User Interface](#user-interface)
   - [File I/O](#file-io)
 - [Usage](#usage)
-- [License](#license)
 
 ## Overview
 
-This is a complete chess game implementation written in Java. It includes all standard chess rules, including piece movement validation, pawn promotion, and game over detection. The game is played in the console using a coordinate-based system.
-
-What makes this project unique is its **modular architecture**—each piece type has its own class, and game logic is cleanly separated from the user interface. It also supports **FEN (Forsyth–Edwards Notation)** for initializing or saving board states.
+This is a complete chess game implementation written in Java. It includes all standard chess rules, including piece movement validation, pawn promotion, and game over detection. The game is played in the terminal using a coordinate-based system.
 
 ## Tech Stack
 
@@ -112,14 +110,10 @@ src/
 
 ## Usage
 
-### Compilation
+### How to compile and start the game
 ```bash
-javac src/chess_codepack/*.java
-```
-
-### Execution
-```bash
-java -cp src chess_codepack.Game
+javac -d out src/chess_codepack/*.java
+java -cp out chess_codepack.Game
 ```
 
 ### Gameplay
@@ -131,16 +125,4 @@ java -cp src chess_codepack.Game
 - **Promotion:** Pawns promote when reaching final rank
 - **Game Over:** Game ends when a king is captured
 
-### Key Features
-- Full chess rule enforcement
-- Modular, object-oriented piece classes
-- Unicode-based visual console display
-- FEN notation support
-- Console-driven gameplay
-- Comprehensive move validation
-- Pawn promotion logic
-- Game over detection
-
-## License
-
-This project is open source and available under the MIT License.
+![How to Image](images/How_to.png)
