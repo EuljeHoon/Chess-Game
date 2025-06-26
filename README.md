@@ -1,5 +1,5 @@
 # Chess Game
-
+![Chess Image](images/Chess_Image.png)
 A Java-based chess game featuring a complete chess engine, full rule implementation, and a console-based interface.
 
 ## Table of Contents
